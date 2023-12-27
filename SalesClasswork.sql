@@ -10,3 +10,14 @@ id int primary key identity,
 startdate date,
 enddate date
 )
+
+)
+
+create table employees (
+id int primary key identity,
+firstname varchar(50),
+lastname varchar(50),
+hourlwage decimal(5,2),
+hiredate date
+)
+
